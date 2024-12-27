@@ -68,7 +68,7 @@ if __name__ == "__main__":
     # Fetch the initial token on startup
     try:
         access_token = get_access_token_with_client_credentials()
-        print(f"Access token: {access_token}")
+        print(f"access_token")
     except Exception as e:
         print(f"Failed to fetch token on startup: {e}")
 
